@@ -7,11 +7,14 @@ import Signup from "../Signup/Signup";
 import ContuctUs from "../Pages/Contact/ContuctUs";
 import AllFreshers from "../Pages/Home/AllFreshers/AllFreshers";
 import AllExperienced from "../Pages/Home/AllExperienced/AllExperienced";
+import Privateroute from "./Privateroute/Privateroute";
+import ErrorPage from "../Pages/ErrorPage";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
@@ -19,11 +22,11 @@ const router = createBrowserRouter([
             },
             {
                 path: '/freshers',
-                element: <AllFreshers></AllFreshers>
+                element: <Privateroute><AllFreshers></AllFreshers></Privateroute>
             },
             {
                 path: '/experienced',
-                element: <AllExperienced></AllExperienced>
+                element: <Privateroute><AllExperienced></AllExperienced></Privateroute>
             },
             {
                 path: '/login',

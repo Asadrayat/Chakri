@@ -1,6 +1,7 @@
 import { GoogleAuthProvider } from "firebase/auth";
 import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 import svg from '../../assest/logo/login.webp';
 import { AuthContext } from "../../Context/Authprovider/Authprovider";
@@ -22,42 +23,24 @@ const Login = () => {
 
     const from = location.state?.from?.pathname || '/';
     // if (token) {
-    //     navigate(from, { replace: true });
+        navigate(from, { replace: true });
     // }
-    const handleLogin = (event) => {
-        event.preventDefault();
-        const email = event.target.email.value;
-        const password = event.target.password.value;
-        // console.log(email,password);
+    const handleSubmit = event => {
+        event.preventDefault()
+        const email = event.target.email.value
+        const password = event.target.password.value
+    
         login(email, password)
-            .then(result => {
-                const user = result.user;
-                const currentUser = {
-                    email: user.email
-                }
-                setLoginUserEmail(event.email);
-
-                console.log(currentUser);
-
-                // get jwt token
-                //   fetch('https://boss-car-server.vercel.app/jwt', {
-                //       method: 'POST',
-                //       headers: {
-                //           'content-type': 'application/json'
-                //       },
-                //       body: JSON.stringify(currentUser)
-                //   })
-                //       .then(res => res.json())
-                //       .then(data => {
-                //           console.log(data);
-                //           local storage is the easiest but not the best place to store jwt token
-                //           localStorage.setItem('boss-token', data.token);
-                //           navigate(from, { replace: true });
-                //       }); 
-
-            })
-            .catch(error => console.log(error));
-    }
+          .then(result => {
+            toast.success('Login Successful.....!')
+            // Get Token
+            navigate(from, { replace: true })
+          })
+          .catch(err => {
+            toast.error(err.message)
+            console.log(err)
+          })
+      }
     return (
         <div className="hero my-12">
             <div className="hero-content grid grid-cols-2 flex-col lg:flex-row">
@@ -65,7 +48,7 @@ const Login = () => {
                     <img src={svg} alt="" />
                 </div>
                 <div className="card py-10 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                    <form onSubmit={handleLogin} className="card-body">
+                    <form onSubmit={handleSubmit} className="card-body">
                         <h1 className="text-5xl font-bold">Login now!</h1>
                         <div className="form-control">
                             <label className="label">
@@ -99,7 +82,7 @@ const Login = () => {
                         <p className="fw-bold">Google SignIn</p>
                     </button>
                     <div>
-                        <p className='text-center'>Have an account? <Link to='/signup' className='text-xl  text-orange-600 font-bold'> Sign In</Link></p>
+                        <p className='text-center'>Have an account? <Link to='/signup' className='text-xl  text-orange-600 font-bold'> Sign Up</Link></p>
                     </div>
                 </div>
 

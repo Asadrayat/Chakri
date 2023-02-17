@@ -5,7 +5,7 @@ const BCompCart = ({ BComp }) => {
     const { name, description, website, image_url, location } = BComp;
     return (
         
-        <div className="card w-full bg-purple-100 shadow-xl">
+        <div className="card w-full bg-blue-100  shadow-xl">
             <figure className="px-10 pt-10">
                 <img src={image_url} alt="Shoes" className="rounded-xl h-44 w-60" />
             </figure>

@@ -1,37 +1,24 @@
 import React from 'react';
-
+import img from "../../assest/about.jpg";
 const Blog = () => {
     return (
-        <div className="hero  bg-base-200">
-            <div className="p-20 text-center">
-                <div className="">
-                    <h1 className="text-2xl font-bold">Q : Difference between SQL and NoSQL?</h1>
-                    <p className="py-6">Ans : SQL databases defines and manipulates data based structured query language (SQL). Seeing from a side this language is extremely powerful. SQL is one of the most versatile and widely-used options available which makes it a safe choice especially for great complex queries. But from other side it can be restrictive. SQL requires you to use predefined schemas to determine the structure of your data before you work with it. Also all of your data must follow the same structure. This can require significant up-front preparation which means that a change in the structure would be both difficult and disruptive to your whole system.
-                        A NoSQL database has dynamic schema for unstructured data. Data is stored in many ways which means it can be document-oriented, column-oriented, graph-based or organized as a KeyValue store. This flexibility means that documents can be created without having defined structure first. Also each document can have its own unique structure. The syntax varies from database to database, and you can add fields as you go.
-
-                    </p>
-                </div>
-                <div className="">
-                    <h1 className="text-2xl font-bold">Q : What is the difference between javascript and NodeJS?</h1>
-                    <p className="py-6">Ans : JavaScript is a simple programming language that can be used with any browser that has the JavaScript Engine installed. Node. js, on the other hand, is an interpreter or execution environment for the JavaScript programming language .
-
-                    </p>
-                </div>
-                <div className="">
-                    <h1 className="text-2xl font-bold">Q : Difference between SQL and NoSQL?</h1>
-                    <p className="py-6">Ans : SQL databases defines and manipulates data based structured query language (SQL). Seeing from a side this language is extremely powerful. SQL is one of the most versatile and widely-used options available which makes it a safe choice especially for great complex queries. But from other side it can be restrictive. SQL requires you to use predefined schemas to determine the structure of your data before you work with it. Also all of your data must follow the same structure. This can require significant up-front preparation which means that a change in the structure would be both difficult and disruptive to your whole system.
-                        A NoSQL database has dynamic schema for unstructured data. Data is stored in many ways which means it can be document-oriented, column-oriented, graph-based or organized as a KeyValue store. This flexibility means that documents can be created without having defined structure first. Also each document can have its own unique structure. The syntax varies from database to database, and you can add fields as you go.
-
-                    </p>
-                </div>
-                <div className="">
-                    <h1 className="text-2xl font-bold">Q : How does NodeJS handle multiple requests at the same time?</h1>
-                    <p className="py-6">Ans : NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them.
-
-                    </p>
+        <div className="hero bg-blue-100 ">
+            <div className="hero-content flex-col lg:flex-row">
+                <img src={img} alt='Chakri' />
+                <div>
+                    <div className="p-5">
+                        <div className="container mx-auto py-8">
+                            <h1 className="text-3xl font-bold mb-4">About Our Job Portal Site</h1>
+                            <p className="mb-4">We are dedicated to connecting job seekers with the best job opportunities in the market. Our mission is to make the job search process easier and more efficient for everyone.</p>
+                            <p className="mb-4">We work with top companies across various industries to provide the best job opportunities to our users. Our team of experienced recruiters are constantly on the lookout for new job openings and work tirelessly to match the right candidates with the right jobs.</p>
+                            <p className="mb-4">Our platform is user-friendly and easy to navigate, making it simple for job seekers to search for job openings and apply for positions. We also provide valuable resources and career advice to help our users succeed in their job search.</p>
+                            <p className="mb-4">Thank you for choosing our job portal site for your job search needs. We look forward to helping you find your next great opportunity!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     );
 };
 

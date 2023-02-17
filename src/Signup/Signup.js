@@ -1,9 +1,14 @@
 import { GoogleAuthProvider } from 'firebase/auth';
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import svg from '../assest/logo/signup.webp';
 import { AuthContext } from '../Context/Authprovider/Authprovider';
 const Signup = () => {
+    const navigate = useNavigate();
+    const location = useLocation();
+    const [error, setError] = useState(null);
+
     const { createUser, providerLogin } = useContext(AuthContext);
     const handleSignup = (event) => {
         event.preventDefault();
@@ -13,9 +18,14 @@ const Signup = () => {
         createUser(email, password,)
             .then(result => {
                 const user = result.user;
+                const from = location.state?.from?.pathname || '/';
+
+                toast.success('SignUp Successful.....!')
+                // Get Token
+                navigate(from, { replace: true })
 
             })
-            .catch(err => console.error(err));
+            .catch(err => setError(err));
     }
     const googleProvider = new GoogleAuthProvider();
     const handleGoogleSignIn = () => {
@@ -34,6 +44,7 @@ const Signup = () => {
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <form onSubmit={handleSignup} className="card-body">
+                        <p className='my-10'>{error}</p>
                         <h1 className="text-5xl font-bold">Signup now!</h1>
                         <div className="form-control">
                             <label className="label">
