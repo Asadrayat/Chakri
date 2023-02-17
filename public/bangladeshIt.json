@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Grameenphone IT",
+        "description": "Grameenphone IT is a leading IT company in Bangladesh, specializing in software development, enterprise solutions, and digital transformation services. It is a subsidiary of Grameenphone, the largest telecommunications company in Bangladesh.",
+        "website": "https://www.grameenphone.com/",
+        "location": "Dhaka, Bangladesh",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Grameenphone_Logo_GP_Logo.svg/1200px-Grameenphone_Logo_GP_Logo.svg.png"
+    },
+    {
+        "name": "Robi Axiata Limited",
+        "description": "Robi Axiata Limited is a leading telecommunications company in Bangladesh that also offers a range of IT services. It is a subsidiary of Axiata Group, one of the largest telecommunications companies in Asia.",
+        "website": "https://www.robi.com.bd/",
+        "location": "Dhaka, Bangladesh",
+        "image_url": "https://seeklogo.com/images/R/robi-logo-CC282103AE-seeklogo.com.png"
+    },
+    {
+        "name": "eGeneration Ltd.",
+        "description": "eGeneration Ltd. is a top IT company in Bangladesh, providing software development, mobile application development, and digital marketing services. It has won several awards for its innovative solutions and high-quality services.",
+        "website": "https://egeneration.co/",
+        "location": "Dhaka, Bangladesh",
+        "image_url": "https://egeneration.co/wp-content/uploads/2021/06/blocks1.png"
+    }
+]

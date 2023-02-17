@@ -6,6 +6,7 @@ import banner from '../../assest/banner.jpg';
 import ContuctUs from '../Contact/ContuctUs';
 import Experienced from './Experienced/Experienced';
 import Freshers from './Freshers/freshers';
+import TopIt from './TopIt/TopIt';
 
 const Home = () => {
     const [jobs, setJobs] = useState([]);
@@ -80,6 +81,17 @@ const Home = () => {
                 </div>
                 <div className='flex justify-center mt-10'>
                     <Link to='/experienced'><button className='btn btn-info font-bold '>See All JOBS</button></Link>
+                </div>
+                <h1 className="lg:text-6xl font-bold text-xl text-center mt-20">
+                    <TypeAnimation
+                        sequence={["Find best Companies", 3000, '']}
+                        speed={40}
+                        wrapper="h2"
+                        repeat={Infinity}
+                    />
+                </h1>
+                <div className='my-24'>
+                    <TopIt></TopIt>
                 </div>
                 <div className='my-24'>
                     <ContuctUs></ContuctUs>

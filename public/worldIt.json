@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Apple Inc.",
+        "description": "Apple Inc. is an American multinational technology company that designs, develops, and sells consumer electronics, computer software, and online services. It is widely known for its innovative products such as the iPhone, iPad, and Mac.",
+        "website": "https://www.apple.com/",
+        "location": "Cupertino, California, United States",
+        "image_url": "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png"
+    },
+    {
+        "name": "Microsoft Corporation",
+        "description": "Microsoft Corporation is an American multinational technology company that develops, licenses, and sells computer software, consumer electronics, and personal computers. Its products include the Windows operating system, the Surface line of tablets, and the Xbox gaming console.",
+        "website": "https://www.microsoft.com/",
+        "location": "Redmond, Washington, United States",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png"
+    },
+    {
+        "name": "Amazon.com Inc.",
+        "description": "Amazon.com Inc. is an American multinational technology company that focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is the world's largest online retailer and has been a major player in the development of cloud computing.",
+        "website": "https://www.amazon.com/",
+        "location": "Seattle, Washington, United States",
+        "image_url": "https://thumbs.dreamstime.com/b/amazon-com-inc-american-multinational-technology-company-based-seattle-washington-which-focuses-e-commerce-cloud-204759332.jpg"
+    }
+]
