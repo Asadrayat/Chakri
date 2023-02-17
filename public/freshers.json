@@ -1,0 +1,66 @@
+
+     [
+        {
+            "company": "Web Wizards",
+            "location": "Chicago, IL",
+            "logo": "https://cdn.dribbble.com/users/2592071/screenshots/7327591/logo-artboard_2_4x_4x.png",
+            "jobTitle": "Junior Web Developer",
+            "salary": "$50,000 - $60,000",
+            "applyButton": "Apply now",
+            "description": "Web Wizards is seeking a junior web developer to join our team in Chicago. The ideal candidate will have experience with HTML, CSS, and JavaScript, as well as experience with one or more front-end frameworks such as React, Angular, or Vue."
+        },
+        {
+            "company": "App Academy",
+            "location": "San Francisco, CA",
+            "logo": "https://cdn.dribbble.com/users/1938457/screenshots/14811404/media/b07d54b2de4ca7def69e5781d1c5303b.jpg?compress=1&resize=400x300&vertical=top",
+            "jobTitle": "Mobile App Developer",
+            "salary": "$60,000 - $70,000",
+            "applyButton": "Apply now",
+            "description": "App Academy is looking for a mobile app developer to join our team in San Francisco. The ideal candidate will have experience with mobile app development using Android or iOS SDKs, as well as experience with one or more mobile app development frameworks such as React Native or Flutter."
+        },
+        {
+            "company": "Cloud Connect",
+            "location": "Seattle, WA",
+            "logo": "https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/09/22143142/shutterstock_1432354097.jpg",
+            "jobTitle": "Cloud Engineer",
+            "salary": "$55,000 - $65,000",
+            "applyButton": "Apply now",
+            "description": "Cloud Connect is seeking a cloud engineer to join our team in Seattle. The ideal candidate will have experience with cloud infrastructure and automation, as well as knowledge of AWS, GCP, or Azure."
+        },
+        {
+            "company": "Data Dreamers",
+            "location": "New York, NY",
+            "logo": "https://i0.wp.com/www.fsociety.gr/wp-content/uploads/2017/11/Data-Analyst.png?fit=1024%2C538&ssl=1",
+            "jobTitle": "Data Analyst",
+            "salary": "$50,000 - $60,000",
+            "applyButton": "Apply now",
+            "description": "Data Dreamers is looking for a data analyst to join our team in New York. The ideal candidate will have experience with SQL and data visualization, as well as experience with data analysis tools such as Excel or Python."
+        },
+        {
+            "company": "AI Innovators",
+            "location": "Boston, MA",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SMuX00RP3HHJEY8hSn2iYFzOHy7FuEqXEQ&usqp=CAU",
+            "jobTitle": "AI Engineer",
+            "salary": "$60,000 - $70,000",
+            "applyButton": "Apply now",
+            "description": "AI Innovators is seeking an AI engineer to join our team in Boston. The ideal candidate will have experience with machine learning and natural language processing, as well as experience with Python or R and knowledge of deep learning frameworks such as TensorFlow or PyTorch."
+        },
+        {
+            "company": "Security Savvy",
+            "location": "Washington, DC",
+            "logo": "https://www.pngitem.com/pimgs/m/69-691927_information-security-analyst-vector-hd-png-download.png",
+            "jobTitle": "Security Analyst",
+            "salary": "$50,000 - $60,000",
+            "applyButton": "Apply now",
+            "description": "Security Savvy is looking for a security analyst to join our team in Washington, DC. "
+        },
+        {
+            "company": "Amazon",
+            "location": "Torrento, QA",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SMuX00RP3HHJEY8hSn2iYFzOHy7FuEqXEQ&usqp=CAU",
+            "jobTitle": "Mern Developer",
+            "salary": "$30,000 - $35,000",
+            "applyButton": "Apply now",
+            "description": "Amazon is seeking an Mern Developer to join our team in Boston. The ideal candidate will have experience with machine learning and natural language processing, as well as experience with React and knowledge of deep learning frameworks such as TensorFlow or PyTorch."
+        }
+    ]

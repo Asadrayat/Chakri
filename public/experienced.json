@@ -1,0 +1,65 @@
+ [
+        {
+            "company": "TechGuru",
+            "location": "San Francisco, CA",
+            "logo": "https://global-uploads.webflow.com/5d0dc87aac109e1ffdbe379c/61a4cb05f5bc1326ac7aa17e_how-to-become-senior-software-engineer.jpg",
+            "jobTitle": "Senior Software Engineer",
+            "salary": "$150,000 - $180,000",
+            "applyButton": "Apply Now",
+            "description": "TechGuru is looking for a senior software engineer to join our team in San Francisco. The ideal candidate will have extensive experience with Java, web development, and scalable systems, as well as a strong understanding of algorithms and data structures."
+        },
+        {
+            "company": "Innovation Inc.",
+            "location": "New York, NY",
+            "logo": "https://img.freepik.com/free-vector/gradient-mechanical-engineering-logo-template_23-2149991478.jpg",
+            "jobTitle": "Director of Engineering",
+            "salary": "$200,000 - $250,000",
+            "applyButton": "Apply Now",
+            "description": "Innovation Inc. is seeking a director of engineering to lead our team in New York. The ideal candidate will have a strong technical background, experience leading and mentoring engineering teams, and a deep understanding of software development best practices."
+        },
+        {
+            "company": "Data Solutions",
+            "location": "Austin, TX",
+            "logo": "https://img.freepik.com/free-vector/gradient-colored-data-logo-template_23-2149182755.jpg?w=2000",
+            "jobTitle": "Senior Data Scientist",
+            "salary": "$120,000 - $150,000",
+            "applyButton": "Apply Now",
+            "description": "Data Solutions is looking for a senior data scientist to join our team in Austin. The ideal candidate will have experience with statistical analysis, machine learning, and data visualization, as well as experience with Python or R and knowledge of cloud computing."
+        },
+        {
+            "company": "CyberSecurity Experts",
+            "location": "Washington, DC",
+            "logo": "https://ars.els-cdn.com/content/image/3-s2.0-C20140027785-cov200h.gif",
+            "jobTitle": "Security Operations Manager",
+            "salary": "$140,000 - $170,000",
+            "applyButton": "Apply Now",
+            "description": "CyberSecurity Experts is seeking a security operations manager to lead our team in Washington, DC. The ideal candidate will have experience with network security and incident response, as well as experience leading and mentoring security teams."
+        },
+        {
+            "company": "Cloud Innovations",
+            "location": "Seattle, WA",
+            "logo": "https://www.zilliondesigns.com/blog/wp-content/uploads/iStock-666631174.jpg",
+            "jobTitle": "Cloud Architect",
+            "salary": "$160,000 - $200,000",
+            "applyButton": "Apply Now",
+            "description": "Cloud Innovations is looking for a cloud architect to join our team in Seattle. The ideal candidate will have extensive experience with cloud infrastructure and automation, as well as knowledge of AWS, GCP or Azure, and experience designing and implementing complex cloud solutions."
+        },
+        {
+            "company": "AI Visionaries",
+            "location": "Boston, MA",
+            "logo": "https://www.techrepublic.com/wp-content/uploads/2018/10/istock-1135819437-740x450-1.jpg",
+            "jobTitle": "Machine Learning Engineer",
+            "salary": "$130,000 - $160,000",
+            "applyButton": "Apply Now",
+            "description": "AI Visionaries is seeking a machine learning engineer to join our team in Boston. "
+        },
+        {
+            "company": "AI Visionaries",
+            "location": "Torrento, QA",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_x7wkgiSKrPySLBNM-WOpyl7hIigXRsimw&usqp=CAU",
+            "jobTitle": "C# Developer",
+            "salary": "$130,000 - $160,000",
+            "applyButton": "Apply Now",
+            "description": "AI Visionaries is seeking a C# Developer to join our team in Boston. "
+        }
+    ]
